@@ -7,13 +7,13 @@ function Resultado({peso, altura}) {
 
       if (resultado < 18.5) {
         classificacao = 'Baixo Peso'
-      } else if (resultado > 18.5 && resultado < 24.9 ) {
+      } else if (resultado > 18.5 && resultado < 25 ) {
         classificacao = 'Peso Adequado'
-      } else if (resultado > 25 && resultado < 29.9 ) {
+      } else if (resultado > 25 && resultado < 30 ) {
         classificacao = 'Sobrepeso'
-      } else if (resultado > 30 && resultado < 34.9 ) {
+      } else if (resultado > 30 && resultado < 35 ) {
         classificacao = 'Obesidade Grau I'
-      } else if (resultado > 35 && resultado < 39.9 ) {
+      } else if (resultado > 35 && resultado < 40 ) {
         classificacao = 'Obesidade Grau II'
       } else if (resultado > 40) {
         classificacao = 'Obesidade Grau III'
